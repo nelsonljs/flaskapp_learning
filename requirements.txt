@@ -1,0 +1,17 @@
+dash
+dash-renderer
+dash-core-components
+dash-html-components
+dash-bootstrap-components
+dash-table
+plotly
+numpy
+pandas
+seaborn
+gunicorn
+flask
+SQLAlchemy
+python-dotenv
+Flask-Cors==1.10.3
+yfinance
+lxml
