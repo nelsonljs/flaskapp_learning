@@ -1,7 +1,0 @@
-For conveniently initializing the app on Conda prompt
-
-cd C:\Users\nelsonlow\Desktop\Nelson\Datasets\sample_app
-flask run
-
-
-localhost:8050

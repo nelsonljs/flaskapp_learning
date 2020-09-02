@@ -1,8 +1,10 @@
-#Purpose-built webapps in the modern workplace
+# Purpose-built webapps in the modern workplace
 
 Computer applications vary in complexity and are important components in the workplace. Applications can range from simple excel macros to publish your documents to full scale image manipulation like Photoshop.
 
 As technology advanced and the internet began to grow, definitions started to stabilize, **web-based applications** began getting attention of the community and emerged as an alternative to installed applications. This was further supported by the HTML5 standard which was famously supported by Steve Jobs and ultimately led to the slow demise of Adobe Flash.
+
+By using the web interface, complex applications can be run using any browser -> the same app can be run on laptops, tablets and handphones! This aligns with the hyper-connected world we are living with.
 
 Web applications are incredible tools that help modernise work in the workplace. As code and automation become more common, it is likely that each department in the modern workplace will have its own *swiss-army webapp toolbox* to facilitate work processes and improve efficiency.
 
@@ -14,10 +16,20 @@ As data scientists, the maturity of the web development frameworks is great news
 
 I find web applications fit well into this niche as it allows end users to interact with the data meaningfully. It facilitates a transition into data-driven decision making by allowing business users to tap into business knowledge to better derive patterns and insights from their data.
 
-An additional advantage of web application is also that it allows quick interfacing with code functions without having to install or run a local interpreter. For example, a complex credit scoring model built with neural nets can be interfaced with and used on the go by end users without worrying about transferring the binaries between each computer.
+An additional advantage of web application is also that it allows quick interfacing with code functions without having to install or run a local interpreter. For example, a complex credit scoring model built with neural nets can be interfaced with and used on the go by end users without worrying about transferring the models between each computer.
 
 ### A sample webapp
 
 A web application framework for python that I've been using to great success is [Flask](https://flask.palletsprojects.com/en/1.1.x/#).
 
 Flask has a simple (enough) folder structure which allows users to detach their analytic code from the web development overheads. It also allows usage of JS and CSS easily while staying completely in the python environment.
+
+Alongside Flask, [Dash](https://plotly.com/dash/) provides great visualization tools to build nice frontends for user interaction.
+
+I have attached a [github repository](https://github.com/nelsonljs/flaskapp_learning) here showcasing the folder structure of a Dash app embedded in Flask.
+
+
+
+### Conclusion
+
+The power of webapps in the modern workplace cannot be underestimated. I for one look forward to the dominance of our webapp overlords.

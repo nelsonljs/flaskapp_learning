@@ -26,7 +26,7 @@ search_bar = dbc.Row(
 
 nav_item = dbc.NavItem(dbc.NavLink("Home", href="/", external_link=True))
 nav_item1 = dbc.NavItem(dbc.NavLink("Ticker Info", href="/dashboard1", external_link=True))
-nav_item2 = dbc.NavItem(dbc.NavLink("Ticker Trends", href="/dashboard2", external_link=True, disabled = True))
+nav_item2 = dbc.NavItem(dbc.NavLink("Ticker Trends", href="/dashboard2", external_link=True, disabled=True))
 nav_item3 = dbc.NavItem(dbc.NavLink("My Blog", href="https://nelsonljs.github.io/myblog/"),
                         style = {"background-color": "#fffbe0"})
 # dropdown = dbc.DropdownMenu(

@@ -6,8 +6,7 @@ from flask import jsonify
 import plotly
 import plotly.express as px
 
-
-stock_ticker = "AMD"
+stock_ticker = "AMZN"
 terminology = {'Buy':['Strong Buy', 'Buy','Outperform','Overweight','Positive','Market Outperform'],
               'Neutral':['Neutral','Hold','Market Perform','Equal-Weight','Sector Perform','Peer Perform','In-Line','Perform','Sector Weight'],
               'Sell':['Strong Sell', 'Reduce','Sell','Underperform','Negative','Underweight']}
